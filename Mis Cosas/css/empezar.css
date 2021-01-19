@@ -1,0 +1,16 @@
+body{
+    background: blueviolet;
+}
+.content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+.card {
+    margin: 20px;
+    opacity: 1.5;
+    height: 100%;
+  }
+
+  .card:hover{
+      opacity: 0.5;
+  }
